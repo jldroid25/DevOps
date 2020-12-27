@@ -4,13 +4,7 @@ Udacity Devops  Lessons and Project codes.
 
 ## **About:**
 
-A series of  Projects from my Udacity Cloud-DevOps Engineer NanoDegree Program 
-
-## Must have Tools:
-to be continue
-
-## Useful Sites:
-to be continue
+A series of  Projects from my Udacity Cloud-DevOps Engineer NanoDegree Program and other projects I built to learn new skills
 
 
 ## In touch
