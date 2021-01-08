@@ -1,0 +1,26 @@
+This is a data file for 2021 Spending.
+
+ PC      |     2019 |    Sweden   |     2019  |   $1230900
+ XJ6     |     2020 |    Denmark  |     2020  |   $3090012
+ Cobra   |     2021 |    Norway   |     2021  |   $9567890
+ Canada  |     2021 |    Canada   |     2021  |   $180934
+
+ Facebook  |  2019 |    Sweden   |     2019  |   $1230900
+ Google    |  2020 |    Denmark  |     2020  |   $3090012
+ Amazon    |  2021 |    Norway   |     2021  |   $9567890
+ Netflix   |  2021 |    Canada   |     2021  |   $180934
+
+ 1CE      |     2019 |    Sweden   |     2019  |   $1230900
+ RJ6      |     2020 |    Denmark  |     2020  |   $3090012
+ Cbra     |     2021 |    Norway   |     2021  |   $9567890
+ Can34    |     2021 |    Canada   |     2021  |   $180934
+
+ Intel    |  2019 |    Sweden   |     2019  |   $1230900
+ Chase    |  2020 |    Denmark  |     2020  |   $3090012
+ Vanguard |  2021 |    Norway   |     2021  |   $9567890
+ Sony     |  2021 |    Canada   |     2021  |   $180934
+
+ ZXS      |     2019 |    Sweden   |     2019  |   $1230900
+ GHB      |     2020 |    Denmark  |     2020  |   $3090012
+ MOBy2    |     2021 |    Norway   |     2021  |   $9567890
+ VidCo    |     2021 |    Canada   |     2021  |   $180934

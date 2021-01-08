@@ -1,0 +1,7 @@
+12 degree Celcius: Weather data - for Montreal - international airport
+
+3 degree Celcius: Weather data - for Toronto - international airport
+
+23 degree Celcius: Weather data - for Vancouver - international airport
+
+- 32 degree Celcius: Weather data - for Svalde Sweden - intl airport
