@@ -2,7 +2,7 @@
 
 ## **About:**
 
-A series of  Projects from my work experience, 
+A series of  Projects from  work experience, 
 Udacity Cloud-DevOps Engineer NanoDegree Program,
 and other side projects I have built to continue expending my skills. 
 
