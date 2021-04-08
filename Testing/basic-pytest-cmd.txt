@@ -1,0 +1,20 @@
+# build the test for our docker container ---
+ docker-compose build 
+
+# ----opent the container  -----
+docker-compose run test sh 
+
+# ---------- run all tests with pytest shell  -------
+type "pytest " 
+
+
+# ---------- run specific test with pytest based on keyword arg "-k "-------
+pytest -k my_example_test_log 
+or
+pytest -k test_mapmaker_start.py 
+
+# ------- To exit Pytest shell ----------
+type "exit" 
+
+
+
