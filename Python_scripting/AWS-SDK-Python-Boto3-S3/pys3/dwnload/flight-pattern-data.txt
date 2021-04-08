@@ -1,0 +1,26 @@
+Aviation Deficits Pattern data for 2021 .
+
+Delta      |     2019 |    Sweden   |     2019  |   $1230900
+American   |     2020 |    Denmark  |     2020  |   $3090012
+Jet Blue   |     2021 |    Norway   |     2021  |   $9567890
+Air Canada |     2021 |    Canada   |     2021  |   $180934
+
+Fac Air  |  2019 |    Sweden   |     2019  |   $1230900
+Goog AIr |  2020 |    Denmark  |     2020  |   $3090012
+AmaZ Air |  2021 |    Norway   |     2021  |   $9567890
+Netf Air |  2021 |    Canada   |     2021  |   $180934
+
+1CE   Rio   |     2019 |    Sweden   |     2019  |   $1230900
+RJ6   12B   |     2020 |    Denmark  |     2020  |   $3090012
+Cbra  Air   |     2021 |    Norway   |     2021  |   $9567890
+Can34 Air   |     2021 |    Canada   |     2021  |   $180934
+
+Intel vix   |  2019 |    Sweden   |     2019  |   $1230900
+Chase Air   |  2020 |    Denmark  |     2020  |   $3090012
+Vang Air    |  2021 |    Norway   |     2021  |   $9567890
+Sony  FRT   |  2021 |    Canada   |     2021  |   $180934
+
+1CE   Rio    |     2019 |    Sweden   |     2019  |   $1230900
+GHB   AIR    |     2020 |    Denmark  |     2020  |   $3090012
+MOBy2  NIO   |     2021 |    Norway   |     2021  |   $9567890
+VidCo  FLO   |     2021 |    Canada   |     2021  |   $180934

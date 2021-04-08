@@ -1,0 +1,8 @@
+--- 
+# this play contains base plays for all nodes
+
+- name: Install firewalld
+  yum: name=firewalld state=started enabled=yes
+
+- name: Start the firewalld service 
+  service: name=firewalld state=started enabled=yes

@@ -1,0 +1,48 @@
+
+#-------Common AWS CloudFormation  Commands  for I.A.C -------
+
+1 ----------aws CMD to create the stack for the first time
+
+(fyi: without --> file://"myfilename"  you'll get error
+
+  # aws cloudformation create-stack  --stack-name "yourstackname" 
+  --region us-east-1  --template-body file://testcfn.yml 
+
+  Example: 
+   aws cloudformation create-stack  --stack-name Vizgen-devops \
+   --template-body file://infra.yml \
+   --parameters file://network-parameter.json
+
+   Example2:
+   or run your script with :
+  ./create.sh "StackName" filename.yml fileName.json
+
+ --------------------------------------------------------------------------- 
+
+  2 ---AWS CMD to update stack once it  has been created 
+  # aws cloudformation update-stack "StackName" \
+  --template-body file://filename.yml --parameters file://fileName.json
+
+  Example:  
+  aws cloudformation update-stack --stack-name  Vizgen-devops \
+   --template-body file://infra.yml \
+   --parameters file://network-parameter.json
+
+  or run your script with :
+  ./update.sh "StackName" filename.yml fileName.json
+ 
+  Example2:  
+  ./update.sh Vizgen-devops infra.yml  network-parameter.json
+
+------------------------------------------------------------------
+
+  3-----------AWS CMD to destroy stack
+  # aws cloudformation delete-stack --stack-name my-stack
+
+  Example:
+  aws cloudformation delete-stack --stack-name  Vizgen-devops 
+
+  ------------------------------------------------------------------
+
+  4 -----------AWS CMD to list all  stack with CREATE_COMPLETE status.
+  # aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE

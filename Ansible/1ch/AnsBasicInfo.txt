@@ -1,0 +1,10 @@
+
+-----Command to run your Ansible Playbook -----
+
+ansible-playbook main-remote.yml -i inventory  
+--private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem
+
+----BAsic istruction:
+1) create an inventory file & add your EC2 IP address on it.
+2 Create your playbook & directories for roles/setup/tasks.
+3) create a task called main.yml 

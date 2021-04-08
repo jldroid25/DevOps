@@ -1,0 +1,25 @@
+---
+# Tasks listed in here will execute modules on the 'webserver' hosts file
+- name: "update the apt packages."
+  become: yes
+  apt:
+      update_cache: yes
+  
+- name: "upgrade packages"
+  become: yes
+  apt: 
+      upgrade: yes
+
+#-------------------------------------
+
+#- name: Latest Apache version installed
+#    yum: 
+#      name: httpd
+#      state: latest
+
+# - name: Apache enabled and running 
+#   service:
+#     name: httpd
+#     enabled: true
+#     state: started 
+

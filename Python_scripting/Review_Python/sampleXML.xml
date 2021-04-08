@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+<firstname>JLdroid25</firstname>
+<lastname>DevopSRE</lastname>
+<home>Boston</home>
+<skill name="AWS"/>
+<skill name="Ansible"/>
+<skill name="Bash"/>
+<skill name="CI/CD"/>
+<skill name="CloudFormation"/>
+<skill name="Docker"/>
+<skill name="GIT"/>
+<skill name="Jenkins"/>
+<skill name="Kubernetes"/>
+<skill name="Python"/>
+<skill name="Terraform"/>
+</person>

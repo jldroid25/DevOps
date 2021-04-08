@@ -1,0 +1,12 @@
+---
+  - name: "Challenge Playbook"
+    hosts: localhost
+
+    tasks:
+      - name: "Ping  Localhost Server"
+        ping:
+
+      - name: "Using Find module to locate files"
+        find:
+          path: ./challenges
+          file_type: file

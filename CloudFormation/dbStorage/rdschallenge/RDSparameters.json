@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "cloudDBProject"
+	},
+	{
+		"ParameterKey": "myUsername",
+		"ParameterValue": "admin"
+	},
+	{
+		"ParameterKey": "myPassword",
+		"ParameterValue": "add-your-sha-secret-#"
+	}
+]

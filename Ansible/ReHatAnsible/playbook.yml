@@ -1,0 +1,15 @@
+---
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: ubuntu
+  roles:
+    - setup  
+
+# ---
+# - name: Ansible Practicing with a  web server in an EC2
+#   hosts: webservers
+#   user: ubuntu
+#   roles:
+#   - setup

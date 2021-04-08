@@ -1,0 +1,12 @@
+---
+  - name: "My First Playbook"
+    hosts: localhost
+
+    tasks:
+        - name: "Test Reachability"
+          ping:
+
+        - name:  "Install Stress"
+          homebrew:
+            name: stress
+            state: present 

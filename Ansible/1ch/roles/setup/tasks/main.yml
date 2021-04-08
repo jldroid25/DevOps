@@ -1,0 +1,52 @@
+---
+# - name: "update the apt packages."
+#   become: yes
+#   apt:
+#       update_cache: yes
+
+# - name: "upgrade packages"
+#   become: yes
+#   apt: 
+#       upgrade: yes
+
+# - name: "install dependencies"
+#   become: yes
+#   apt:
+#     name: ["nodejs", "npm"]
+#     state: latest
+#     update_cache: yes
+
+
+# - name: "install pm2"
+#   become: yes
+#   npm:
+#     name: pm2
+#     global: yes
+#     production: yes
+#     state: present
+
+- name: "Creates Scribbler directory"
+  file:
+      path: ~/web/scribbler
+      state: directory
+
+- name: "Copy server file  page"
+  template:
+    src: "../../../portSiteServer.js"
+    dest: "~/web/portSiteServer.js"
+
+
+- name: "Copy Scribbler Site to AWS EC2 Server Web Directory"
+  copy:
+    src: /Users/jimad12/Desktop/DEVOPS/Courses/Ansible/1ch/scribbler/ 
+    dest: ~/web/scribbler
+
+- name: "Executing node"
+  shell: | 
+     pm2 start ~/web/portSiteServer.js -f
+
+# - name: "Stopping Server node"
+#   shell: | 
+#     pm2 stop ~/web/index.js -f
+
+# Ansible nodejs command to start a web server 

@@ -1,0 +1,2 @@
+ ------Find file(s) in a local directory 
+ ansible localhost -m find -a "paths=~/Desktop/DEVOPS file_type=file"

@@ -1,0 +1,28 @@
+
+# ------------------ Tools to Verify an ansible playbook before running the playbook ------
+
+# ----- using Yamllint to check for indent errors etc 
+# First install with:  "pip3 install yamllint "
+# Run:  yamllint myplaybook.yml 
+
+# ------------Also install Ansible-lint : 
+# pip3 install --user ansible-lint
+# Run ansible :  ansible-lint myplaybook.yml
+
+
+#------- check Syntax in our Ansible Playbook with '--check'------------
+#  ansible-playbook --check myplaybook.yml
+# Example:
+ansible-playbook  --check playbook.yml -i hosts 
+--private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem
+
+
+
+# ------ Verify which host will be affected by the playbook------- 
+ansible-playbook myplaybook.yml --list-hosts
+
+
+# ---- run your ansible plabook, host file , ec2 private key location for remote aws EC2 server ---
+# Example:
+ansible-playbook  playbook.yml -i hosts 
+--private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem

@@ -1,0 +1,5 @@
+[webservers]
+
+# Remember to add your aws-public-DNS-here
+ec2-3-226-21-12.compute-1.amazonaws.com
+3.226.21.12

@@ -1,0 +1,9 @@
+# Ansible can:
+
+# 1) Build Infrastructure from the ground up
+
+# 2) Manage Physical Infrastructure
+
+# 3) Automate Virtualization
+
+# 4 ) Wide OS Support

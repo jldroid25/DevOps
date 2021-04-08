@@ -1,0 +1,28 @@
+---------------  Ping AWS EC2 Server: ------------------------
+ansible all  -m ping -i awshosts -u ubuntu  
+--private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem -vvvv
+
+
+------------ Try to Reboot Remote Server via SSH ----------
+
+ansible all  -i inventory -a "/sbin/reboot" -u ubuntu  
+--become   --private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem -vvvv
+
+------------ ------------------------------------------------------------------------- 
+
+-----------copy files from a control-node (machine) to manage node (Remote server)
+
+ansible all  -i inventory -m ansible.builtin.copy -a "src=  dest="
+-u ubuntu  --private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem -vvvv
+
+or 
+
+ansible all  -i inventory -m ansible.builtin.copy -a 
+"src=infrastructureMng.txt dest=/home/ubuntu/noteFiles"  
+-u ubuntu  --private-key /Users/jimad12/Desktop/DEVOPS/ALL_AWS_Keys/jl12-aws-key.pem -vvvv
+
+(don't leave extra spaces between src= & dest=)
+------------------- -------------------------------------------------------------
+
+
+-------------

@@ -1,0 +1,18 @@
+Get familiar with Bucket policies:
+
+
+
+- In the S3 web console, create a bucket and enable static web hosting.
+
+- Create an index.html (or use any sample file) and upload it to your bucket.
+
+- Using the AWS CLI Tool and your text editor, create a bucket policy 
+to enable public access to it (Hint: Use the AWS Documentation ).
+
+- Update the policy to restrict access only to your own IP address.
+
+
+
+Refer to: 
+The IP Restricted S3 Bucket Solution.txt contains the description
+The ipbucket.json is an example policy (JSON code)

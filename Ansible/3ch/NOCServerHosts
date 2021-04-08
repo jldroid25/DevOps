@@ -1,0 +1,11 @@
+[MGM-Casino-Servers]
+maveste_1  ansible_host=192.0.0.1 ansible_connection=local deprecation_warnings=false
+maveste_2  ansible_host=169.0.0.2 ansible_connection=local  INTERPRETER_PYTHON=auto_silent
+maveste_3  ansible_host=181.0.0.3 ansible_connection=local
+maveste_4  ansible_host=131.0.0.4 ansible_connection=local
+
+[PCC-Casino-Servers]
+122.1.0.3  ansible_host=122.1.0.3 ansible_connection=local deprecation_warnings=false
+141.1.1.6  ansible_host=141.1.1.6 ansible_connection=local  INTERPRETER_PYTHON=auto_silent
+171.0.2.1  ansible_host=171.0.2.1 ansible_connection=local
+134.0.1.4  ansible_host=134.0.1.4 ansible_connection=local

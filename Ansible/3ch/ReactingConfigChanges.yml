@@ -1,0 +1,38 @@
+# -----------  Reacting to configuration changes with Ansible
+# Scripts can be easily modified
+# Using 'Handlers' to make ansible flexible about those changes '
+
+---
+  - name: "React with configuration Changes "
+    hosts: aws-ec2-server
+    user: ubuntu
+    become: yes
+    #serial: 1 # run one tasks at a time
+    strategy: free # run all tasks simultaneously
+
+    tasks:
+      - name: "Install nginx"
+        debug: # just for demonstration , no actual install/changes will take place
+          msg: "Install nginx on: { inventory_hostname }" 
+    
+      - name: "Upgrading nginx"
+        debug:
+          msg: "Upgrade nginx on: { inventory_hostname }" 
+        
+      - name: "Configure nginx"
+        debug:
+          msg: "Start : { inventory_hostname }" 
+        # with notify & changed_when so that the handler can restart the nginx 
+        notify: restart nginx #will notify the handler
+        changed_when: True # then once change happens, handler will restart nginx below
+
+      - name: "Verify nginx is running"
+        debug:
+          msg: "Verify: nginx on: { inventory_hostname }" 
+  
+    handlers:
+        - name: restart nginx
+          debug:
+            msg: "CALLED HANDLER FOR RESTART"
+      
+    

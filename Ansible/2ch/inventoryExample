@@ -1,0 +1,18 @@
+[southeast]
+localhost              ansible_connection=local 
+other1.exampole.com    ansible_connection=ssh      ansible_user=ubuntu
+
+[webservers]
+ec2-3-226-21-12.compute-1.amazonaws.com
+3.226.21.12
+
+[northeast]
+other2.exampole.com 
+10.10.100.10
+
+[southwest]
+10.10.200.10
+
+[east:children]
+southeast
+northeast

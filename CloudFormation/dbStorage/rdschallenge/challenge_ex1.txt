@@ -1,0 +1,19 @@
+-------  Challenge :
+
+- Deploy a MySQL database
+Create a CloudFormation script that deploys a MySQL DB with an associated security group.
+
+- On the EC2 Console, create a security group that you'll associate with EC2 instances and RDS
+
+- Using CloudFormation, create a script that uses your security group and creates an RDS MySQL DB
+
+--------------------------------------------------
+
+- Hint
+Use the starter code as shown in the snapshot below, and refer to the AWS documentation
+
+AWS::RDS::DBInstance and AWS::RDS::DBSubnetGroup, for choosing the right set of properties.
+
+- Bonus Steps
+Export a few resources, such as private Subnet IDs, from your previous stack. 
+Then only you can cross-reference the resources from another stack, such as using:
